@@ -7,14 +7,7 @@
 .logo { font-size: 20px; font-weight: bold; }
 nav a { color: white; text-decoration: none; margin-left: 16px; font-size: 14px; }
 nav a:hover { text-decoration: underline; }
-.card{
-     background: #224e7e;
-     padding: 42px;
-     border-radius: 12px;
-     margin-bottom: 20px;
-     border: 1px solid #d1d5db;
 
-}
 .b1{
     color: black;
 }
@@ -124,7 +117,7 @@ button{
 }
 .m1{
     background: #ffffff;
-    padding: 20px;
+    padding: 36px;
     border-radius: 12px;
     border: 1px solid #d1d5db;
     text-align: left;
@@ -132,10 +125,7 @@ button{
 
 }
 .t{
-
-
     margin-bottom: 5px;
-
 }
 footer{
     text-align: center; padding: 18px; background: #e5e7eb; color: #4b5563; margin-top: 30px; 
@@ -239,7 +229,7 @@ nav a:hover {
     padding: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    gap: 18px;
+    gap: 30 px;
 }
 
 /* ERROR 6: cards are too dark and not looking like cards */
@@ -294,3 +284,36 @@ footer {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+/*dashboard*/
+.d1{
+    margin-bottom: 30px;
+    margin: 0px 0px 30px;
+}
+.price2{
+    color: rgb(49, 127, 245);
+}
+.card3 {
+    background: #ffffff;
+    color: #123c69;
+    padding-top: 8%;
+    padding: 32px;
+    border-radius: 19px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 6px hsl(0, 0%, 80%);
+    
+}
+section.card4 {
+    background: hsl(0, 0%, 100%);
+    color: #123c69;
+    padding: 42px;
+    border-radius: 19px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 6px hsl(0, 0%, 80%);
+    margin-left: 40px;
+    margin-right: 42px;
+    
+}    
+table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+th, td { text-align: left; border-bottom: 1px solid #d1d5db; padding: 12px; }
+th { background: #e3f2fd; color: #123c69; }
+
